@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Wifi Social</title>
+</head>
+<body>
+	<script async defer src="https://connect.facebook.net/pt_BR/sdk.js"></script>
+	<script src="js/login.js"></script>
+
+	<form name="sendin" action="$(link-login-only)" method="post">
+		<input type="hidden" name="username"/>
+		<input type="hidden" name="password"/>
+		<input type="hidden" name="dst" value="$(link-orig)" />
+	</form>
+
+	<div class="container">
+		<div class="box">
+
+			<div class="box-top">
+				<p> Ola, curta e compartilhe para usar o wifi :-)</p>
+			</div>
+
+			<div class="box-middle">
+
+				<div class="links">
+					<div>
+						<a href="#" onclick="sharePost();" class="long-share-btn facebook">
+							<i class="fa fa-facebook-square"></i>
+							Compartilhar no Facebook
+						</a>
+					</div>
+					<!-- <div> NOVO LINK
+					<a href="#"></a>
+				</div>
+			</div> -->
+
+		</div>
+
+	</div	>
+</div>
+</body>
+</html>

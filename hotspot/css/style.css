@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html{
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif, Tahoma, Arial;
+	background-image: url(../img/fundo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container{
+	height: 100%;
+	width: 100%;
+}
+
+.box{
+	position: relative;
+	width: 25%;
+	height: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 300px;
+	background-color: rgba(245,222,179, 0.4);
+	color: #FFF;
+	text-align: center;
+}
+
+.box-top{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	width: 90%;
+	height: 20%;
+	border-bottom: solid 5px rgb(245,222,179);
+}
+
+.box-top p{
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.box-middle{
+	position: relative;
+	left: 50%;
+	top:40%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	height: 70%;
+}
+
+ .links{
+	position: relative;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 100px;
+}
+
+.links a{
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	border: none;
+	padding: 15px 15px 15px 15px;
+	margin-bottom: 15px;
+}
+
+.facebook{ background-color: #4267b2; }
+.facebook:hover{ background-color: #365899; border: none;}
