@@ -2,6 +2,7 @@
 libera internet após usuário compartilhar link informado no facebook
 
 #instruções
+
  -editar o script login.js na pasta js
  -habilitar o hotspot no mikrotik,
  -apagar todos os arquivos originais gerados e copiar a pasta hotspot para o mikrotik
